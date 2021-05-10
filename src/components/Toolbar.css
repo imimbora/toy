@@ -1,0 +1,9 @@
+.toolbar {}
+.toolbar .lst {float:left; display:grid; padding:0 2px; background:var(--main-bg-color); border:1px solid var(--main-border-color);}
+.toolbar .lst li {}
+.toolbar .bt {width:33px; height:26px;}
+.toolbar .bt:not(.active) {display:none;}
+.toolbar .bt:hover {background: #454545; border: 1px solid #666;}
+.toolbar .lst li.on .bt.active {background: #383838; border: 1px solid #636363; border-radius:1px;}
+.toolbar .bt .ic {display:inline-block; }
+.toolbar .bt .tx {display:none;}

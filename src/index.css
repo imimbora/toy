@@ -1,13 +1,11 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+*, :after, :before {box-sizing: border-box;}
+html, body, div, ul, ol, dl, li, dt, dd, p, h1, h2, h3, h4, h5, h6, table, th, td, caption, address, article, aside, canvas, details, figure, figcaption, footer, header, menu, nav, section, button, select, textarea, input, fieldset, legend, a, span, strong, em, address, dfn, small, i, b {margin: 0; padding: 0; border: 0; list-style: none; word-break: break-all; font-style: normal; font-size: 100%;}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {display: block;}
+button {background: none; cursor: pointer;}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --main-bg-color: #535353;
+  --main-border-color: #383838;
+  --sub-bg-color: #262626;
+  --sub-border-color: #474747;
 }

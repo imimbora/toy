@@ -9,3 +9,5 @@ button {background: none; cursor: pointer;}
   --sub-bg-color: #262626;
   --sub-border-color: #474747;
 }
+
+.blind {position: absolute; clip: rect(0 0 0 0); width: 1px; height: 1px; margin: -1px; overflow: hidden;}

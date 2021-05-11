@@ -1,9 +1,15 @@
-.toolbar {}
-.toolbar .lst {float:left; display:grid; padding:0 2px; background:var(--main-bg-color); border:1px solid var(--main-border-color);}
-.toolbar .lst li {}
+.toolbar {height:100vh; float:left; padding:0 2px;  background:var(--main-bg-color); border:1px solid var(--main-border-color);}
+
+.toolbar .btn-tgl {display:block; width:100%; padding:0 10px; text-align: left;}
+.toolbar .btn-tgl i {font-size:10px; color:#c8c8c8; transform: scaleX(-1);}
+.toolbar.expanded .btn-tgl i {transform: scaleX(1);}
+
+.toolbar .lst {display: grid; width:33px; grid-template-columns:1fr; margin-top:4px;}
+.toolbar.expanded .lst {width:66px; grid-template-columns:1fr 1fr;}
+
 .toolbar .bt {width:33px; height:26px;}
 .toolbar .bt:not(.active) {display:none;}
 .toolbar .bt:hover {background: #454545; border: 1px solid #666;}
 .toolbar .lst li.on .bt.active {background: #383838; border: 1px solid #636363; border-radius:1px;}
-.toolbar .bt .ic {display:inline-block; }
+.toolbar .bt i {display:inline-block; color: #ddd; font-size:10px;}
 .toolbar .bt .tx {display:none;}
